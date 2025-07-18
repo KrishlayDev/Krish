@@ -49,10 +49,7 @@ Personalized, beautiful, and fully deployed.
 — *Priyanka Sarkar, BSc Student*
 
 > “His content bridges theory and practice beautifully.”  
-— *Dr. Sarah Johnson, AI Researcher*
-
-> “A true innovator in the AI space.”  
-— *Jessica Williams, Tech Lead, Silicon Valley*
+— **Swagat Saikia, Web DEV & MLE**
 
 ---
 
