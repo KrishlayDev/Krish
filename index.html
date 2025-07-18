@@ -1461,7 +1461,13 @@ body.light-theme {
     opacity: 0.7;
     animation: particleFloat linear infinite;
 }
-
+#about{
+    color:white;
+}
+        #about:hover{
+            background:white;
+            color:black;
+        }
 @keyframes particleFloat {
     0% {
         transform: translateY(100vh) translateX(0px);
@@ -1485,8 +1491,7 @@ body.light-theme {
 </head>
 
 <body>
-    <br><br><br><br>
-    Best viewing on PC <br><br><br>
+    <br><br>
     <!-- Cursor Light Effect -->
     <div class="cursor-light" id="cursorLight"></div>
 
@@ -1521,11 +1526,12 @@ body.light-theme {
     <section id="home" class="hero">
         <div class="hero-bg"></div>
         <div class="profile-image" data-aos="zoom-in" data-aos-duration="1500">
-            <img src="real_logo.jpg" />
+            <img src="real_logo.jpg" /><br><br>
+        <h3>Best View On Desktop Mode</h3>
         </div>
         <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
             <h1>Krishlay Developer</h1>
-            <p class="tagline">Code Smart in the AI Era</p>
+            <p class="tagline"><center>Code Smart in the AI Era</center></p>
             <div class="typing-text" id="typingText"></div>
             <a href="#projects" class="cta-button">Explore My Projects</a>
             <div class="social-buttons">
@@ -1554,7 +1560,7 @@ body.light-theme {
                 <img src="offical_dk_logo.jpg" /><br><br><br><br>
             </div>
             <div class="about-text" data-aos="fade-left" data-aos-delay="400">
-                <h2>👋 Hey, I’m Krishlay — a Pythonic mind on a mission to build intelligent tools, simplify complex
+                <h4 id="about">👋 Hey, I’m Krishlay — a Pythonic mind on a mission to build intelligent tools, simplify complex
                     tech, and bring real-world AI to everyday developers.
                     <br>
                     I’m the founder of @DevKrishlay(<a href="youtube.com/@DevKrishlay">Krishlay Developerz</a>), where I teach, build, 
@@ -1575,7 +1581,7 @@ and break code
                     <br>
                     📍 Based in India | 🎯 Goal: Join Google or Microsoft as an AI Engineer <br>
                     📆 Current Mission: Master ML & Hit 1M Subs on Youtube — public learning, zero excuses.
-                </h2>
+                </h4>
                 </p>
             </div>
         </div>
