@@ -1,1 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishlay Developer | AI Portfolio</title>
+    <meta name="description" content="Krishlay Developer - Code Smart in the AI Era. Pythonic mind building powerful AI tools, sharing in public, and aiming for Google/Microsoft.">
+    <meta name="keywords" content="Krishlay Developer, AI, Python, Machine Learning, Portfolio, Developer">
+    <meta name="author" content="Krishlay Developer">
 
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- Cursor Light Effect -->
+    <div class="cursor-light" id="cursorLight"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Krishlay Developer</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Remove this theme toggle div -->
+    <!-- Theme Toggle -->
+    <!-- <div class="theme-toggle" id="themeToggle"></div> -->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="profile-image" data-aos="zoom-in" data-aos-duration="1500">
+            🧠
+        </div>
+        <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+            <h1>Krishlay Developer</h1>
+            <p class="tagline">Code Smart in the AI Era</p>
+            <div class="typing-text" id="typingText"></div>
+            <a href="#projects" class="cta-button">Explore My Projects</a>
+            <div class="social-buttons">
+                <a href="https://youtube.com/@DevKrishlay" class="social-btn youtube" target="_blank">
+                    <i class="fab fa-youtube"></i> YouTube
+                </a>
+                <a href="https://instagram.com/krishlaydev" class="social-btn instagram" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://whatsapp.com/channel/0029Vb5mRhe8kyyD5NvXdu3E" class="social-btn whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://github.com/KrishlayDev" class="social-btn github" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image" data-aos="zoom-in" data-aos-delay="200">🧠</div>
+            <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                <p>Hello! I'm Krishlay, a passionate developer and founder of "Krishlay Developer" and "Krishlay Developerz". With a Pythonic mindset, I specialize in building powerful AI tools and sharing knowledge with the developer community.</p>
+                <p>My journey in technology is driven by innovation and the desire to create solutions that make a difference. I'm constantly learning, building, and sharing my experiences through various platforms.</p>
+                <p>My goal is to join tech giants like Google or Microsoft, where I can contribute to cutting-edge projects that shape the future of technology and artificial intelligence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+                <i class="fas fa-brain"></i>
+                <h3>Machine Learning</h3>
+            </div>
+            
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="600">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="700">
+                <i class="fas fa-robot"></i>
+                <h3>AI Development</h3>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="800">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">🤖</div>
+                <div class="project-content">
+                    <h3>Kython AI</h3>
+                    <p>Next-generation multi-agent AI system designed to revolutionize automation and intelligent decision-making processes with advanced machine learning capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Multi-Agent</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3>SRMS</h3>
+                    <p>Student Result Management System - A comprehensive platform for managing student data, results, and academic analytics with real-time reporting features.</p>
+                    <div class="project-tags">
+                        <span class="tag">Flask</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-image">🚀</div>
+                <div class="project-content">
+                    <h3>AI Portfolio Builder</h3>
+                    <p>Automated portfolio generation tool using AI to create personalized developer portfolios based on GitHub data and user preferences with modern design.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">GitHub API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" data-aos="fade-up">
+        <h2 class="section-title">What People Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-avatar">👩‍🎓</div>
+                <p class="testimonial-text">"Krishlay's AI tutorials are incredibly insightful and beginner-friendly. His channel has been instrumental in my learning journey and career growth!"</p>
+                <h4 class="testimonial-author">Priyanka Sarkar</h4>
+                <p class="testimonial-location">BSc Student, Assam, India</p>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-avatar">👨‍💻</div>
+                <p class="testimonial-text">"Outstanding content quality and practical approach to AI development. Krishlay's expertise shines through every video and project he creates!"</p>
+                <h4 class="testimonial-author">Swagat Saikia</h4>
+                <p class="testimonial-location">Web Developer & MLE, Assam, India</p>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="testimonial-avatar">🧑‍🔬</div>
+                <p class="testimonial-text">"Krishlay's innovative approach to AI development is inspiring. His content bridges the gap between theory and practical implementation beautifully!"</p>
+                <h4 class="testimonial-author">Dr. Sarah Johnson</h4>
+                <p class="testimonial-location">AI Researcher, California, USA</p>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="testimonial-avatar">👨‍🏫</div>
+                <p class="testimonial-text">"As an educator, I appreciate Krishlay's clear explanations and structured approach to complex AI concepts. Highly recommended for students!"</p>
+                <h4 class="testimonial-author">Prof. Michael Chen</h4>
+                <p class="testimonial-location">Computer Science Professor, MIT, USA</p>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="testimonial-avatar">💼</div>
+                <p class="testimonial-text">"Krishlay's professional insights and cutting-edge AI projects showcase exceptional talent. A true innovator in the artificial intelligence field!"</p>
+                <h4 class="testimonial-author">Jessica Williams</h4>
+                <p class="testimonial-location">Tech Lead, Silicon Valley, USA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p>Ready to collaborate on something amazing? Let's connect and build the future together!</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    <span id="submitText">Send Message</span>
+                </button>
+                <div class="success-message" id="successMessage">
+                    Message sent successfully! I'll get back to you soon.
+                </div>
+                <div class="error-message" id="errorMessage">
+                    Failed to send message. Please try again or contact me directly.
+                </div>
+            </form>
+            
+            <div class="contact-info">
+                <div class="contact-item" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-envelope"></i>
+                    <span>krishlay2026@gmail.com</span>
+                </div>
+                <div class="contact-item" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp Channel</span>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/KrishlayDev" class="social-link" data-aos="zoom-in" data-aos-delay="100" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://youtube.com/@DevKrishlay" class="social-link" data-aos="zoom-in" data-aos-delay="200" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://instagram.com/krishlaydev" class="social-link" data-aos="zoom-in" data-aos-delay="300" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://whatsapp.com/channel/0029Vb5mRhe8kyyD5NvXdu3E" class="social-link" data-aos="zoom-in" data-aos-delay="400" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:krishlay2026@gmail.com" class="social-link" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Thanks to GitHub.com for making this site live, 
+            Copyright by <a href="https://youtube.com/@DevKrishlay" id="adk">Krishlay</a>, 
+            Build on 15 July 2025, 
+            Updated on July 2025, <br> Made with ❤️ by 
+            <a href="https://youtube.com/@DevKrishlay" target="_blank" id="adk" >@DevKrishlay</a> & 
+            <a href="https://github.com/KrishlayDev" id="adk">GitHub.com</a>, ReactJS & Tailwind</p>
+        <h3>&copy; 2025 Krishlay Developer. All rights reserved.</h3>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.css"></script>
+
+    <script>
+        // Initialize EmailJS with your credentials
+        (function() {
+            emailjs.init("s0mk3SoFVVul-30BS");
+        })();
+
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+
+        // Custom Cursor - Only enable for non-mobile devices
+        function isMobileDevice() {
+            return window.matchMedia("(max-width: 768px)").matches || 
+                   /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        if (!isMobileDevice()) {
+            const cursor = document.querySelector('.cursor');
+            const trails = [];
+            const trailLength = 15;
+
+            // Create cursor trails
+            for (let i = 0; i < trailLength; i++) {
+                const trail = document.createElement('div');
+                trail.className = 'cursor-trail';
+                document.body.appendChild(trail);
+                trails.push(trail);
+            }
+
+            let mouseX = 0, mouseY = 0;
+            let trailX = 0, trailY = 0;
+
+            // Cursor Light Effect
+            const cursorLight = document.getElementById('cursorLight');
+
+            document.addEventListener('mousemove', (e) => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+                
+                // Update cursor light position
+                cursorLight.style.left = mouseX + 'px';
+                cursorLight.style.top = mouseY + 'px';
+            });
+
+            function updateCursor() {
+                cursor.style.left = mouseX + 'px';
+                cursor.style.top = mouseY + 'px';
+
+                trailX += (mouseX - trailX) * 0.1;
+                trailY += (mouseY - trailY) * 0.1;
+
+                for (let i = trails.length - 1; i > 0; i--) {
+                    trails[i].style.left = trails[i - 1].style.left;
+                    trails[i].style.top = trails[i - 1].style.top;
+                }
+
+                trails[0].style.left = trailX + 'px';
+                trails[0].style.top = trailY + 'px';
+
+                requestAnimationFrame(updateCursor);
+            }
+
+            updateCursor();
+
+            // Hover effects for interactive elements
+            document.querySelectorAll('.cta-button, .skill-card, .project-card, .social-link, .social-btn, .contact-item, .testimonial-card').forEach(element => {
+                element.addEventListener('mouseenter', () => {
+                    cursor.style.transform = 'scale(2.5)';
+                    cursorLight.style.opacity = '1';
+                    cursorLight.style.width = '350px';
+                    cursorLight.style.height = '350px';
+                    
+                    // Add pulse animation to cursor light
+                    cursorLight.style.animation = 'pulse 1.5s infinite';
+                });
+
+                element.addEventListener('mouseleave', () => {
+                    cursor.style.transform = 'scale(1)';
+                    cursorLight.style.opacity = '0.7';
+                    cursorLight.style.width = '';
+                    cursorLight.style.height = '';
+                    cursorLight.style.animation = '';
+                });
+            });
+        } else {
+            // Hide cursor elements on mobile
+            document.querySelector('.cursor').style.display = 'none';
+            document.querySelector('.cursor-light').style.display = 'none';
+        }
+
+        // EmailJS Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const submitText = document.getElementById('submitText');
+            const successMessage = document.getElementById('successMessage');
+            const errorMessage = document.getElementById('errorMessage');
+            
+            // Hide previous messages
+            successMessage.classList.remove('show');
+            errorMessage.classList.remove('show');
+            
+            // Show loading state
+            submitText.innerHTML = '<span class="loading"></span> Sending...';
+            submitBtn.disabled = true;
+
+            // Send email using EmailJS
+            emailjs.sendForm('service_vxkggpo', 'template_nxqxjeo', this)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    successMessage.classList.add('show');
+                    document.getElementById('contactForm').reset();
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        successMessage.classList.remove('show');
+                    }, 5000);
+                })
+                .catch(function(error) {
+                    console.log('FAILED...', error);
+                    errorMessage.classList.add('show');
+                    
+                    // Hide error message after 5 seconds
+                    setTimeout(() => {
+                        errorMessage.classList.remove('show');
+                    }, 5000);
+                })
+                .finally(function() {
+                    submitText.textContent = 'Send Message';
+                    submitBtn.disabled = false;
+                });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        navLinks.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                navLinks.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Typing animation
+        const typingText = document.getElementById('typingText');
+        const texts = ['ML Developer', 'AI Builder', 'Educator', 'Problem Solver', 'Innovator', 'Tech Enthusiast', 'Python Expert', 'Future Googler'];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeWriter() {
+            const currentText = texts[textIndex];
+
+            if (isDeleting) {
+                typingText.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 150;
+
+            if (!isDeleting && charIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(typeWriter, typeSpeed);
+        }
+
+        typeWriter();
+
+         // Remove this theme toggle code block
+        /*
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-theme');
+            themeToggle.classList.toggle('light');
+
+            // Save theme preference
+            localStorage.setItem('theme', body.classList.contains('light-theme') ? 'light' : 'dark');
+        });
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            body.classList.add('light-theme');
+            themeToggle.classList.add('light');
+        }
+        */
+
+        // Hover effects for interactive elements
+        document.querySelectorAll('.cta-button, .skill-card, .project-card, .social-link, .social-btn, .contact-item').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                cursor.style.transform = 'scale(2)';
+                cursorLight.style.opacity = '1';
+            });
+
+            element.addEventListener('mouseleave', () => {
+                cursor.style.transform = 'scale(1)';
+                cursorLight.style.opacity = '0.7';
+            });
+        });
+
+        // Parallax effect for hero background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroBackground = document.querySelector('.hero-bg');
+            if (heroBackground) {
+                heroBackground.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Random particle animation
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.position = 'fixed';
+            particle.style.width = Math.random() * 6 + 2 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.background = `hsl(${120 + Math.random() * 60}, 100%, ${50 + Math.random() * 30}%)`;
+            particle.style.borderRadius = '50%';
+            particle.style.pointerEvents = 'none';
+            particle.style.zIndex = '1';
+            particle.style.boxShadow = `0 0 ${Math.random() * 20 + 10}px currentColor`;
+            
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.top = window.innerHeight + 'px';
+            
+            document.body.appendChild(particle);
+            
+            const animation = particle.animate([
+                { 
+                    transform: 'translateY(0px) translateX(0px) rotate(0deg)', 
+                    opacity: 0 
+                },
+                { 
+                    opacity: 0.7,
+                    offset: 0.1
+                },
+                { 
+                    opacity: 0.7,
+                    offset: 0.9
+                },
+                { 
+                    transform: `translateY(-${window.innerHeight + 200}px) translateX(${Math.random() * 200 - 100}px) rotate(360deg)`, 
+                    opacity: 0 
+                }
+            ], {
+                duration: Math.random() * 5000 + 5000,
+                easing: 'linear'
+            });
+            
+            animation.onfinish = () => {
+                particle.remove();
+            };
+        }
+
+        // Create particles periodically
+        setInterval(createParticle, 500);
+
+        // Add intersection observer for enhanced animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    
+                    // Add special effects for different sections
+                    if (entry.target.id === 'skills') {
+                        animateSkillCards();
+                    } else if (entry.target.id === 'projects') {
+                        animateProjectCards();
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Animate skill cards
+        function animateSkillCards() {
+            const skillCards = document.querySelectorAll('.skill-card');
+            skillCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.transform = 'translateY(-10px) scale(1.05)';
+                    setTimeout(() => {
+                        card.style.transform = '';
+                    }, 200);
+                }, index * 100);
+            });
+        }
+
+        // Animate project cards
+        function animateProjectCards() {
+            const projectCards = document.querySelectorAll('.project-card');
+            projectCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.transform = 'rotateY(10deg) scale(1.02)';
+                    setTimeout(() => {
+                        card.style.transform = '';
+                    }, 300);
+                }, index * 150);
+            });
+        }
+
+        // Add glitch effect to title on hover
+        const title = document.querySelector('.hero-content h1');
+        title.addEventListener('mouseenter', () => {
+            title.style.animation = 'glitch 0.5s infinite, glow 2s ease-in-out infinite alternate';
+        });
+
+        title.addEventListener('mouseleave', () => {
+            title.style.animation = 'glow 2s ease-in-out infinite alternate';
+        });
+
+        // Preloader effect
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+            
+            // Trigger initial animations
+            setTimeout(() => {
+                document.querySelectorAll('[data-aos]').forEach(element => {
+                    element.classList.add('aos-animate');
+                });
+            }, 500);
+        });
+
+        // Add dynamic text shadow based on mouse position
+        document.addEventListener('mousemove', (e) => {
+            const centerX = window.innerWidth / 2;
+            const centerY = window.innerHeight / 2;
+            const moveX = (e.clientX - centerX) / 50;
+            const moveY = (e.clientY - centerY) / 50;
+            
+            const heroTitle = document.querySelector('.hero-content h1');
+            if (heroTitle) {
+                heroTitle.style.textShadow = `
+                    ${moveX}px ${moveY}px 20px rgba(0, 255, 136, 0.5),
+                    ${-moveX}px ${-moveY}px 20px rgba(0, 212, 255, 0.3)
+                `;
+            }
+        });
+
+        // Performance optimization for animations
+        let ticking = false;
+        function updateAnimations() {
+            // Update any expensive animations here
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateAnimations);
+                ticking = true;
+            }
+        });
+
+        // Add keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Tab') {
+                document.body.classList.add('keyboard-navigation');
+            }
+        });
+
+        document.addEventListener('mousedown', () => {
+            document.body.classList.remove('keyboard-navigation');
+        });
+
+        // Initialize all features when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('🚀 Krishlay Developer Portfolio Loaded!');
+            console.log('💻 Made with ❤️ by @DevKrishlay');
+            console.log('🌟 Thanks for visiting!');
+        });
+
+        // Hover effects for interactive elements
+        document.querySelectorAll('.cta-button, .skill-card, .project-card, .social-link, .social-btn, .contact-item, .testimonial-card').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                cursor.style.transform = 'scale(2.5)';
+                cursorLight.style.opacity = '1';
+                cursorLight.style.width = '350px';
+                cursorLight.style.height = '350px';
+                
+                // Add pulse animation to cursor light
+                cursorLight.style.animation = 'pulse 1.5s infinite';
+            });
+
+            element.addEventListener('mouseleave', () => {
+                cursor.style.transform = 'scale(1)';
+                cursorLight.style.opacity = '0.7';
+                cursorLight.style.width = '';
+                cursorLight.style.height = '';
+                cursorLight.style.animation = '';
+            });
+        });
+
+        // Add pulse animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes pulse {
+                0% { transform: translate(-50%, -50%) scale(1); }
+                50% { transform: translate(-50%, -50%) scale(1.1); }
+                100% { transform: translate(-50%, -50%) scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+        
+    </script>
+</body>
+</html>
